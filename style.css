@@ -379,3 +379,4 @@ footer{background:var(--surface);padding-block:64px 40px;font-size:14px;line-hei
 /* ---------- Spurcycle ---------- */
 .logo.wordmark{height:auto;font-size:17px;line-height:17px;letter-spacing:.22em}
 .ph-note{font-size:12px;color:var(--muted);letter-spacing:var(--ls-label)}
+.rh-media.bright img{filter:brightness(.62)}
