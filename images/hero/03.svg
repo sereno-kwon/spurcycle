@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1350" width="1600" height="1350">
+<defs><radialGradient id="brass" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#fbf1d2"/><stop offset=".4" stop-color="#c9a36a"/><stop offset="1" stop-color="#5e4720"/></radialGradient>
+<radialGradient id="steel" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#b9babd"/><stop offset="1" stop-color="#55565a"/></radialGradient>
+<radialGradient id="black" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#8a8b8f"/><stop offset=".45" stop-color="#2a2b30"/><stop offset="1" stop-color="#0b0b0c"/></radialGradient></defs>
+<rect width="1600" height="1350" fill="#1c1d21"/>
+<circle cx="800.0" cy="675.0" r="567.0" fill="none" stroke="#2a2b30" stroke-width="2"/><circle cx="800.0" cy="675.0" r="432.0" fill="none" stroke="#2a2b30" stroke-width="2"/>
+<rect x="508.4" y="793.8" width="583.2" height="64.8" rx="32.4" fill="#151515"/><rect x="752.48" y="750.6" width="95.04" height="75.6" fill="#232323"/><circle cx="800.0" cy="675.0" r="216.0" fill="url(#steel)"/><circle cx="800.0" cy="675.0" r="34.56" fill="#151515"/>
+<text x="48.0" y="1296.0" font-family="Helvetica,Arial,sans-serif" font-size="29" letter-spacing="2" fill="#8d8e93">PLACEHOLDER · COMPACT BELL · images/hero/03</text>
+</svg>

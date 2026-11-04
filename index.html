@@ -2,149 +2,385 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Spurcycle | Rubi Workshop</title>
-<meta name="description" content="Spurcycle — 오래 쓰는 단 하나의 벨. 미국에서 만든 자전거 벨과 액세서리를 Rubi Workshop에서 소개합니다.">
-<meta property="og:title" content="Spurcycle | Rubi Workshop">
-<meta property="og:description" content="오래 쓰는 단 하나의 벨. Spurcycle 브랜드 페이지.">
-<meta property="og:url" content="https://spurcycle.rubiworkshop.com/">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Spurcycle 코리아 | 스퍼사이클 자전거 벨</title>
+<meta name="description" content="Spurcycle(스퍼사이클)은 미국에서 만드는 자전거 벨과 액세서리 브랜드입니다. 오리지널 벨과 컴팩트 벨을 루비워크샵에서 만나보세요.">
+<meta name="keywords" content="Spurcycle,스퍼사이클,Spurcycle 벨,자전거 벨,Original Bell,Compact Bell,루비워크샵">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://spurcycle.rubiworkshop.com/">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://spurcycle.rubiworkshop.com/">
+<meta property="og:title" content="Spurcycle 코리아 | 스퍼사이클 자전거 벨">
+<meta property="og:description" content="한 번 달면 바꿀 일이 없는 벨. 미국에서 만든 Spurcycle.">
+<meta property="og:site_name" content="Spurcycle 코리아">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="index,follow">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Archivo:wght@500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 16 16"><path d="M1 8h13M9 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+  <symbol id="i-bell" viewBox="0 0 24 24"><circle cx="12" cy="11" r="6" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="12" cy="11" r="1.2" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M4 19h16" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+</svg>
 
-<header class="nav">
-  <a href="#top" class="logo" aria-label="Spurcycle 홈">SPURCYCLE</a>
-  <button class="nav-toggle" aria-label="메뉴 열기" aria-expanded="false">☰</button>
-  <nav class="nav-links">
-    <a href="#story">Story</a>
-    <a href="#products">Products</a>
-    <a href="#craft">Craft</a>
-    <a href="#where">Where to buy</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<!-- ===== 헤더 ===== -->
+<header class="site" id="hd">
+  <div class="container bar">
+    <a href="#top" class="logo wordmark" aria-label="Spurcycle 홈">SPURCYCLE</a>
+    <ul class="menu" id="menu">
+      <li><a href="#brand">Spurcycle</a></li>
+      <li><a href="#bell">Original Bell</a></li>
+      <li><a href="#compact">Compact Bell</a></li>
+      <li><a href="#acc">Accessories</a></li>
+      <li><a href="#story">Story</a></li>
+      <li><a href="#showroom">Showroom</a></li>
+    </ul>
+    <div class="tools">
+      <a class="shop" href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener">Shop</a>
+      <button class="icon-btn burger" id="burger" type="button" aria-label="메뉴" aria-expanded="false" aria-controls="drawer"><svg class="ico-menu"><use href="#i-menu"/></svg><svg class="ico-close"><use href="#i-close"/></svg></button>
+    </div>
+  </div>
 </header>
 
-<main id="top">
+<!-- 모바일 드로어 -->
+<nav class="drawer" id="drawer" aria-label="메뉴">
+  <ul class="dlist">
+    <li><a href="#brand">Spurcycle<small>01</small></a></li>
+    <li><a href="#bell">Original Bell<small>02</small></a></li>
+    <li><a href="#compact">Compact Bell<small>03</small></a></li>
+    <li><a href="#acc">Accessories<small>04</small></a></li>
+    <li><a href="#story">Story<small>05</small></a></li>
+    <li><a href="#showroom">Showroom<small>06</small></a></li>
+  </ul>
+</nav>
 
-  <section class="hero">
-    <div class="hero-text">
-      <p class="eyebrow">Made in USA · Since 2013</p>
-      <h1>Ring<br>once.<br>Ring clear.</h1>
-      <p class="lead">작지만 오래 울리는 벨. 한 번 달면 바꿀 일이 없는 자전거 벨, Spurcycle을 Rubi Workshop이 소개합니다.</p>
-      <div class="cta">
-        <a href="#products" class="btn btn-primary">제품 보기</a>
-        <a href="#where" class="btn btn-ghost">구매처 안내</a>
+<main>
+<h1 class="sr-only">Spurcycle 코리아 | 스퍼사이클 자전거 벨</h1>
+
+<!-- ===== 히어로 슬라이드 ===== -->
+<section class="rh" id="top" data-sec aria-roledescription="carousel" aria-label="Spurcycle">
+  <div class="rh-slide is-active" role="group" aria-roledescription="slide" aria-label="1 / 3">
+    <div class="rh-media"><img src="images/hero/01.svg" alt="Spurcycle 라이딩"></div>
+    <div class="rh-shade"></div>
+    <div class="rh-inner"><div class="rh-copy">
+      <p class="rh-eyebrow">Made in USA · Since 2013</p>
+      <h2 class="rh-title">Spurcycle</h2>
+      <p class="rh-sub">스퍼사이클</p>
+      <p class="rh-desc">한 번 달면 바꿀 일이 없는 벨. 미국에서 만든 자전거 벨, Spurcycle.</p>
+      <div class="rh-ctas"><a class="rh-btn" href="#range"><span>라인업 보기</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="rh-btn" href="#showroom"><span>쇼룸에서 들어보기</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+    </div></div>
+  </div>
+  <div class="rh-slide" role="group" aria-roledescription="slide" aria-label="2 / 3">
+    <div class="rh-media"><img src="images/hero/02.svg" alt="Spurcycle Original Bell" loading="lazy"></div>
+    <div class="rh-shade"></div>
+    <div class="rh-inner"><div class="rh-copy">
+      <p class="rh-eyebrow">The Bell</p>
+      <h2 class="rh-title">Original Bell</h2>
+      <p class="rh-sub">오리지널 벨</p>
+      <p class="rh-desc">작은 몸체, 멀리까지 이어지는 맑은 울림</p>
+      <div class="rh-ctas"><a class="rh-btn" href="#bell"><span>자세히 알아보기</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="rh-btn" href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener"><span>구매하기</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+    </div></div>
+  </div>
+  <div class="rh-slide" role="group" aria-roledescription="slide" aria-label="3 / 3">
+    <div class="rh-media"><img src="images/hero/03.svg" alt="Spurcycle Compact Bell" loading="lazy"></div>
+    <div class="rh-shade"></div>
+    <div class="rh-inner"><div class="rh-copy">
+      <p class="rh-eyebrow">Smaller · Lighter</p>
+      <h2 class="rh-title">Compact Bell</h2>
+      <p class="rh-sub">컴팩트 벨</p>
+      <p class="rh-desc">좁은 콕핏을 위한 더 작은 Spurcycle</p>
+      <div class="rh-ctas"><a class="rh-btn" href="#compact"><span>자세히 알아보기</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="rh-btn" href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener"><span>구매하기</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+    </div></div>
+  </div>
+  <div class="rh-nav">
+    <ol class="rh-dots">
+      <li><button class="rh-dot" type="button" aria-label="1"><span class="rh-bar"><i></i></span><span class="rh-label">Spurcycle</span></button></li>
+      <li><button class="rh-dot" type="button" aria-label="2"><span class="rh-bar"><i></i></span><span class="rh-label">Original Bell</span></button></li>
+      <li><button class="rh-dot" type="button" aria-label="3"><span class="rh-bar"><i></i></span><span class="rh-label">Compact Bell</span></button></li>
+    </ol>
+    <div class="rh-ctrl">
+      <button class="rh-icon rh-prev" type="button" aria-label="이전"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></button>
+      <button class="rh-icon rh-next" type="button" aria-label="다음"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></button>
+      <button class="rh-icon rh-toggle" type="button" aria-label="일시정지"><svg class="ic-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M5.5 3v10M10.5 3v10" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><svg class="ic-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3l8 5-8 5z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- 퀵링크 -->
+<div class="container" role="navigation" aria-label="바로가기">
+  <div class="quick">
+    <a href="#showroom"><svg><use href="#i-pin"/></svg><span>쇼룸에서 들어보기</span><svg class="arrow"><use href="#i-arrow"/></svg></a>
+    <a href="#range"><svg><use href="#i-bell"/></svg><span>라인업 보기</span><svg class="arrow"><use href="#i-arrow"/></svg></a>
+    <a href="https://pf.kakao.com/_NFnBj/chat" target="_blank" rel="noopener"><svg><use href="#i-chat"/></svg><span>거래처 문의</span><svg class="arrow"><use href="#i-arrow"/></svg></a>
+  </div>
+</div>
+
+<!-- ===== 01 SPURCYCLE ===== -->
+<section class="sec" id="brand" data-sec>
+  <div class="container story">
+    <div class="reveal"><p class="num">01</p><p class="kicker">Brand</p><p class="model">Spurcycle<span>Made in USA · Since 2013</span></p></div>
+    <div class="copy reveal">
+      <h2>작은 물건일수록<br>제대로 만들어야<br>오래 갑니다.</h2>
+      <p>Spurcycle(스퍼사이클)은 자전거 벨처럼 작고 흔한 물건도 제대로 만들면 평생 쓸 수 있다는 생각에서 시작한 미국 브랜드입니다. 쉽게 부러지고 소리가 금방 끊기는 벨 대신, 작고 단단하면서 멀리까지 맑게 울리는 벨. 크라우드펀딩으로 첫 벨을 선보인 뒤로 Spurcycle은 지금도 같은 원칙으로 물건을 만듭니다.</p>
+      <p>Spurcycle은 불필요한 것을 더하지 않습니다. 오래 가는 소재, 정확한 가공, 어떤 자전거에도 어울리는 절제된 디자인. 라이더가 벨을 의식하지 않고 라이딩에 집중할 수 있도록, 필요한 순간에만 분명하게 존재감을 드러냅니다.</p>
+      <div class="stats">
+        <div><b>2013</b><span>크라우드펀딩으로 시작한 독립 브랜드</span></div>
+        <div><b>USA</b><span>미국에서 만드는 벨과 액세서리</span></div>
+        <div><b>Steel · Brass</b><span>오래 쓰도록 고른 단단한 소재</span></div>
+        <div><b>Long Ring</b><span>짧게 끊기지 않고 멀리 이어지는 울림</span></div>
       </div>
     </div>
-    <div class="hero-visual" aria-hidden="true">
-      <svg viewBox="0 0 400 400" class="bell">
-        <defs>
-          <radialGradient id="dome" cx="38%" cy="32%" r="70%">
-            <stop offset="0" stop-color="#fff6d8"/>
-            <stop offset=".35" stop-color="#d8b25a"/>
-            <stop offset="1" stop-color="#6e5420"/>
-          </radialGradient>
-        </defs>
-        <circle cx="200" cy="200" r="190" fill="none" stroke="currentColor" stroke-opacity=".12" stroke-width="2"/>
-        <circle cx="200" cy="200" r="150" fill="none" stroke="currentColor" stroke-opacity=".08" stroke-width="2"/>
-        <rect x="70" y="250" width="260" height="34" rx="17" fill="#1b1b1b"/>
-        <rect x="178" y="226" width="44" height="40" rx="6" fill="#2a2a2a"/>
-        <ellipse cx="200" cy="200" rx="105" ry="105" fill="url(#dome)"/>
-        <ellipse cx="200" cy="200" rx="18" ry="18" fill="#1b1b1b"/>
-        <path d="M290 150 l40 -18 M298 178 l46 -4 M288 122 l30 -30" stroke="#e8542f" stroke-width="6" stroke-linecap="round"/>
-      </svg>
+  </div>
+  <figure class="bleed mt reveal"><img src="images/brand/01.svg" alt="Spurcycle 라이딩" loading="lazy"></figure>
+  <div class="container story mt">
+    <div class="reveal"><p class="kicker">Design</p></div>
+    <div class="copy reveal">
+      <h2>Ring once, ring clear.<br>한 번에, 분명하게.</h2>
+      <p>좋은 벨은 여러 번 울릴 필요가 없습니다. Spurcycle 벨은 한 번의 스트라이크로 길고 깨끗한 소리를 냅니다. 보행자와 다른 라이더에게 거슬리지 않게, 그러나 확실하게 내 존재를 알립니다.</p>
+      <p>장식 대신 비율과 마감에 공을 들였습니다. 로드, 그래블, 시티 바이크 어디에 달아도 콕핏의 일부처럼 자연스럽게 어울리고, 시간이 지나도 질리지 않는 모습으로 남습니다.</p>
     </div>
-  </section>
+  </div>
+  <div class="container mt">
+    <div class="cols">
+      <div class="cell reveal"><figure><img src="images/brand/02.svg" alt="Spurcycle 디자인" loading="lazy"></figure><h3><small>Design</small>Nothing extra</h3><p>필요한 것만 남긴 형태. 작고 단단한 몸체가 핸들바 위에서 조용히 제 자리를 지킵니다.</p></div>
+      <div class="cell reveal"><figure><img src="images/brand/03.svg" alt="Spurcycle 사운드" loading="lazy"></figure><h3><small>Sound</small>A clear, long ring</h3><p>한 번의 스트라이크로 길게 이어지는 맑은 울림. 도로의 소음 속에서도 또렷하게 들립니다.</p></div>
+      <div class="cell reveal"><figure><img src="images/brand/04.svg" alt="Spurcycle 제조" loading="lazy"></figure><h3><small>Made in USA</small>Built close to home</h3><p>미국의 제조 파트너와 함께 만듭니다. 가까이에서 만들기에 품질을 끝까지 직접 챙길 수 있습니다.</p></div>
+      <div class="cell reveal"><figure><img src="images/brand/05.svg" alt="Spurcycle 디테일" loading="lazy"></figure><h3><small>Detail</small>Built to last</h3><p>날씨와 진동, 오랜 사용을 견디도록 고른 소재와 마감. 한 번 단 벨을 다시 바꿀 일이 없도록.</p></div>
+    </div>
+  </div>
+</section>
 
-  <section id="story" class="section story">
-    <div class="section-head">
-      <p class="eyebrow">01 · Story</p>
-      <h2>필요한 만큼만,<br>제대로 만든다.</h2>
-    </div>
-    <div class="story-body">
-      <p>Spurcycle은 자전거 벨처럼 작고 흔한 물건도 제대로 만들면 오래 간다는 생각에서 시작한 미국 브랜드입니다. 크라우드펀딩으로 첫 벨을 선보인 뒤, 지금도 같은 원칙을 지킵니다.</p>
-      <p>작고 단단한 몸체, 멀리까지 깨끗하게 이어지는 울림, 어떤 핸들바에도 깔끔하게 붙는 마운트. 군더더기 없이 기능에 집중한 디자인이 Spurcycle의 전부입니다.</p>
-    </div>
-  </section>
+<!-- 다크 스트립 -->
+<section class="strip on-dark" aria-label="Spurcycle">
+  <div class="container">
+    <div><p class="eyebrow">Spurcycle</p><h3>The last bell you'll ever need. Made in USA, rung on every road.</h3></div>
+    <a class="btn solid" href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener">루비워크샵에서 보기 →</a>
+  </div>
+</section>
 
-  <section id="products" class="section products">
-    <div class="section-head">
-      <p class="eyebrow">02 · Products</p>
-      <h2>Line-up</h2>
+<!-- 라인업 -->
+<section class="sec" id="range">
+  <div class="container">
+    <div class="sec-head reveal">
+      <div><p class="kicker">The Range</p><h2>Find your Spurcycle</h2><p class="lead">로드부터 시티 바이크까지, 자전거에 맞는 하나.</p></div>
+      <a class="link" href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener"><span>루비워크샵 바로가기 →</span></a>
     </div>
-    <div class="grid">
-      <article class="card">
-        <div class="card-img img-bell" aria-hidden="true"></div>
-        <h3>Original Bell</h3>
-        <p>Spurcycle을 대표하는 벨. 작은 크기에서 나오는 맑고 긴 울림으로 도로 위에서도 존재감을 분명히 전합니다.</p>
-        <span class="tag">Raw · Black · Gold</span>
-      </article>
-      <article class="card">
-        <div class="card-img img-compact" aria-hidden="true"></div>
-        <h3>Compact Bell</h3>
-        <p>더 작고 가벼운 바디. 핸들바 공간이 좁은 그래블·로드 바이크와 미니멀한 세팅에 어울립니다.</p>
-        <span class="tag">Raw · Black</span>
-      </article>
-      <article class="card">
-        <div class="card-img img-acc" aria-hidden="true"></div>
-        <h3>Accessories</h3>
-        <p>벨과 같은 기준으로 만든 툴과 EDC 액세서리. 라이딩과 일상 어디에서나 손이 가는 도구들입니다.</p>
-        <span class="tag">Tool · Key · Strap</span>
-      </article>
+    <div class="range reveal">
+      <a href="#bell"><span class="idx">01</span><div><b>Original Bell</b><small>Bell</small></div><p>Spurcycle을 대표하는 벨. 작은 크기에서 나오는 길고 맑은 울림.</p><dl><dt>소재</dt><dd>STEEL · BRASS</dd><dt>제조</dt><dd>USA</dd></dl><svg><use href="#i-arrow"/></svg></a>
+      <a href="#compact"><span class="idx">02</span><div><b>Compact Bell</b><small>Bell</small></div><p>더 작고 가벼운 바디. 공간이 좁은 콕핏과 미니멀한 세팅을 위한 벨.</p><dl><dt>크기</dt><dd>COMPACT</dd><dt>제조</dt><dd>USA</dd></dl><svg><use href="#i-arrow"/></svg></a>
+      <a href="#acc"><span class="idx">03</span><div><b>Accessories</b><small>EDC · Tool</small></div><p>벨과 같은 기준으로 만든 툴과 EDC 액세서리. 라이딩과 일상 모두를 위한 도구.</p><dl><dt>구성</dt><dd>TOOL · EDC</dd><dt>제조</dt><dd>USA</dd></dl><svg><use href="#i-arrow"/></svg></a>
     </div>
-    <p class="note">* 판매 모델과 컬러는 시즌·입고 상황에 따라 달라질 수 있습니다.</p>
-  </section>
+  </div>
+</section>
 
-  <section id="craft" class="section craft">
-    <div class="section-head">
-      <p class="eyebrow">03 · Craft</p>
-      <h2>Why Spurcycle</h2>
+<!-- ===== 02 ORIGINAL BELL ===== -->
+<section class="sec" id="bell" data-sec>
+  <div class="container story">
+    <div class="reveal"><p class="num">02</p><p class="kicker">The Bell</p><p class="model">Original Bell<span>오리지널 벨</span></p></div>
+    <div class="copy reveal">
+      <h2>작은 벨,<br>멀리 가는 소리.<br>Spurcycle의 시작.</h2>
+      <p>오리지널 벨은 Spurcycle이라는 이름을 알린 첫 제품입니다. 손가락 끝으로 가볍게 튕기면, 작은 몸체에서 상상하기 어려운 길고 맑은 울림이 퍼져 나갑니다. 짧게 '딸랑'하고 끝나는 벨과는 다른, 멀리서도 또렷하게 들리는 소리입니다.</p>
+      <p>견고한 소재와 정밀한 가공으로 만들어 오랜 시간 같은 소리를 유지합니다. 핸들바에 단단히 고정되는 마운트 덕분에 거친 노면에서도 흔들리거나 돌아가지 않습니다.</p>
+      <div class="btns"><a class="btn solid" href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener">루비워크샵에서 보기 →</a><a class="btn ghost" href="#bell-spec">Specification</a></div>
     </div>
-    <ul class="features">
-      <li><strong>Made in USA</strong><span>미국 현지 공방과 파트너 공장에서 제작합니다.</span></li>
-      <li><strong>Long ring</strong><span>짧게 울리고 끝나는 벨이 아닌, 멀리까지 이어지는 맑은 소리.</span></li>
-      <li><strong>Built to last</strong><span>스테인리스와 황동 등 견고한 소재로 오래 쓰도록 만들었습니다.</span></li>
-      <li><strong>Clean mount</strong><span>다양한 핸들바 지름에 맞는 깔끔한 장착.</span></li>
-    </ul>
-  </section>
+  </div>
+  <div class="container mt">
+    <div class="duo reveal" data-gallery="bell-life"><figure><img src="images/bell/01.svg" alt="Spurcycle Original Bell 라이딩" loading="lazy"></figure><figure><img src="images/bell/02.svg" alt="Spurcycle Original Bell 디테일" loading="lazy"></figure></div>
+  </div>
+  <div class="container mt">
+    <div class="cols">
+      <div class="cell reveal"><span class="idx">01</span><h3>롱 링</h3><p>한 번의 스트라이크로 길게 이어지는 울림. 여러 번 울리지 않아도 충분히 전달됩니다.</p></div>
+      <div class="cell reveal"><span class="idx">02</span><h3>견고한 소재</h3><p>스틸과 황동 등 오래 가는 소재로 만들어 날씨와 진동에도 같은 소리를 유지합니다.</p></div>
+      <div class="cell reveal"><span class="idx">03</span><h3>단단한 마운트</h3><p>핸들바에 단단히 고정되어 거친 노면에서도 돌아가거나 흔들리지 않습니다.</p></div>
+      <div class="cell reveal"><span class="idx">04</span><h3>Made in USA</h3><p>미국의 제조 파트너와 함께 만들고, 하나하나 품질을 확인합니다.</p></div>
+    </div>
+  </div>
+  <div class="container mt reveal">
+    <p class="shots-head"><b>Original Bell · Ring once, ring clear</b><span>Raw · Black</span></p>
+    <div class="shots" data-gallery="bell">
+      <figure><div class="ph"><img src="images/bell/s1.svg" alt="Original Bell 상단" loading="lazy"></div><figcaption>TOP</figcaption></figure>
+      <figure><div class="ph"><img src="images/bell/s2.svg" alt="Original Bell 측면" loading="lazy"></div><figcaption>SIDE</figcaption></figure>
+      <figure><div class="ph"><img src="images/bell/s3.svg" alt="Original Bell 블랙" loading="lazy"></div><figcaption>BLACK</figcaption></figure>
+      <figure><div class="ph"><img src="images/bell/s4.svg" alt="Original Bell 마운트" loading="lazy"></div><figcaption>MOUNT</figcaption></figure>
+    </div>
+  </div>
+  <!-- TODO: 공식 스펙(무게, 핸들바 지름, 컬러)으로 교체 -->
+  <div class="container mt" id="bell-spec">
+    <div class="spec">
+      <div class="reveal">
+        <p class="kicker">Specification</p>
+        <h3 class="h2">Spurcycle Original Bell</h3>
+        <div class="btns"><a class="btn solid" href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener">루비워크샵에서 보기 →</a></div>
+      </div>
+      <dl class="reveal">
+        <dt>모델</dt><dd>Original Bell</dd>
+        <dt>용도</dt><dd>로드, 그래블, MTB, 시티 바이크</dd>
+        <dt>소재</dt><dd>스틸, 황동</dd>
+        <dt>장착</dt><dd>핸들바 클램프 마운트</dd>
+        <dt>컬러</dt><dd>Raw, Black</dd>
+        <dt>제조</dt><dd>미국</dd>
+      </dl>
+    </div>
+  </div>
+</section>
 
-  <section id="where" class="section where">
-    <div class="section-head">
-      <p class="eyebrow">04 · Where to buy</p>
-      <h2>구매처</h2>
+<!-- ===== 03 COMPACT BELL ===== -->
+<section class="sec" id="compact" data-sec>
+  <div class="container story">
+    <div class="reveal"><p class="num">03</p><p class="kicker">Smaller · Lighter</p><p class="model">Compact Bell<span>컴팩트 벨</span></p></div>
+    <div class="copy reveal">
+      <h2>더 작게,<br>소리는 그대로<br>분명하게.</h2>
+      <p>컴팩트 벨은 오리지널 벨의 철학을 더 작은 크기에 담았습니다. 라이트, 컴퓨터, 마운트로 핸들바 공간이 빠듯한 로드와 그래블 바이크에서도 자리를 크게 차지하지 않습니다.</p>
+      <p>크기는 줄었지만 Spurcycle다운 맑은 울림과 단단한 만듦새는 그대로입니다. 미니멀한 세팅을 좋아하는 라이더를 위한 Spurcycle입니다.</p>
+      <div class="btns"><a class="btn solid" href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener">루비워크샵에서 보기 →</a><a class="btn ghost" href="#compact-spec">Specification</a></div>
     </div>
-    <div class="where-box">
-      <p>Spurcycle 제품은 Rubi Workshop 및 공식 파트너 매장에서 만나보실 수 있습니다.</p>
-      <a class="btn btn-primary" href="https://rubiworkshop.com" target="_blank" rel="noopener">Rubi Workshop 바로가기</a>
+  </div>
+  <div class="container mt">
+    <div class="duo reveal" data-gallery="compact-life"><figure><img src="images/compact/01.svg" alt="Spurcycle Compact Bell 라이딩" loading="lazy"></figure><figure><img src="images/compact/02.svg" alt="Spurcycle Compact Bell 디테일" loading="lazy"></figure></div>
+  </div>
+  <div class="container mt">
+    <div class="cols c3">
+      <article class="cell reveal"><span class="idx">Size</span><h3>컴팩트 바디</h3><p>더 작은 몸체로 붐비는 콕핏에도 쉽게 들어갑니다.</p></article>
+      <article class="cell reveal"><span class="idx">Sound</span><h3>맑은 울림</h3><p>작아져도 Spurcycle다운 깨끗하고 또렷한 소리를 냅니다.</p></article>
+      <article class="cell reveal"><span class="idx">Build</span><h3>같은 기준</h3><p>오리지널 벨과 같은 소재와 제조 기준으로 만듭니다.</p></article>
     </div>
-  </section>
+  </div>
+  <div class="container mt reveal">
+    <p class="shots-head"><b>Compact Bell · Small, still clear</b><span>Raw · Black</span></p>
+    <div class="shots" data-gallery="compact">
+      <figure><div class="ph"><img src="images/compact/s1.svg" alt="Compact Bell 상단" loading="lazy"></div><figcaption>TOP</figcaption></figure>
+      <figure><div class="ph"><img src="images/compact/s2.svg" alt="Compact Bell 측면" loading="lazy"></div><figcaption>SIDE</figcaption></figure>
+      <figure><div class="ph"><img src="images/compact/s3.svg" alt="Compact Bell 블랙" loading="lazy"></div><figcaption>BLACK</figcaption></figure>
+      <figure><div class="ph"><img src="images/compact/s4.svg" alt="Compact Bell 마운트" loading="lazy"></div><figcaption>MOUNT</figcaption></figure>
+    </div>
+  </div>
+  <!-- TODO: 공식 스펙(무게, 핸들바 지름, 컬러)으로 교체 -->
+  <div class="container mt" id="compact-spec">
+    <div class="spec">
+      <div class="reveal">
+        <p class="kicker">Specification</p>
+        <h3 class="h2">Spurcycle Compact Bell</h3>
+        <div class="btns"><a class="btn solid" href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener">루비워크샵에서 보기 →</a></div>
+      </div>
+      <dl class="reveal">
+        <dt>모델</dt><dd>Compact Bell</dd>
+        <dt>용도</dt><dd>로드, 그래블, 미니멀 세팅</dd>
+        <dt>소재</dt><dd>스틸, 황동</dd>
+        <dt>장착</dt><dd>핸들바 클램프 마운트</dd>
+        <dt>컬러</dt><dd>Raw, Black</dd>
+        <dt>제조</dt><dd>미국</dd>
+      </dl>
+    </div>
+  </div>
+</section>
 
-  <section id="contact" class="section contact">
-    <div class="section-head">
-      <p class="eyebrow">05 · Contact</p>
-      <h2>문의</h2>
+<!-- ===== 04 ACCESSORIES ===== -->
+<section class="sec" id="acc" data-sec>
+  <div class="container story">
+    <div class="reveal"><p class="num">04</p><p class="kicker">EDC · Tool</p><p class="model">Accessories<span>액세서리</span></p></div>
+    <div class="copy reveal">
+      <h2>벨과 같은 기준으로,<br>매일 손이 가는 도구.</h2>
+      <p>Spurcycle은 벨 외에도 라이딩과 일상에서 쓰는 툴과 EDC(Everyday Carry) 액세서리를 만듭니다. 주머니와 안장 가방에 늘 넣어 다니는 물건일수록 작고, 가볍고, 오래 가야 한다는 생각은 벨과 같습니다.</p>
+      <p>취급 모델과 재고는 시기에 따라 달라질 수 있습니다. 현재 판매 중인 액세서리는 루비워크샵에서 확인해 주세요.</p>
+      <div class="btns"><a class="btn solid" href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener">루비워크샵에서 보기 →</a></div>
     </div>
-    <p>입점·도매·A/S 문의는 Rubi Workshop으로 연락 주세요.</p>
-  </section>
+  </div>
+  <div class="container mt">
+    <div class="duo reveal" data-gallery="acc"><figure><img src="images/acc/01.svg" alt="Spurcycle 액세서리" loading="lazy"></figure><figure><img src="images/acc/02.svg" alt="Spurcycle EDC" loading="lazy"></figure></div>
+  </div>
+</section>
 
+<!-- ===== 05 STORY ===== -->
+<section class="sec" id="story" data-sec>
+  <div class="container story">
+    <div class="reveal"><p class="num">05</p><p class="kicker">Story</p><p class="model">2013 ~ 2026<span>USA · Every road</span></p></div>
+    <div class="copy reveal">
+      <h2>흔한 벨 하나를<br>다시 생각하는 데서<br>시작했습니다.</h2>
+      <p>대부분의 자전거 벨은 싸고, 쉽게 부서지고, 금방 버려집니다. Spurcycle은 이 작은 물건을 처음부터 다시 생각했습니다. 오래 가는 소재로, 가까운 곳에서, 제대로 만든다면 벨도 평생 쓰는 물건이 될 수 있다고 믿었습니다.</p>
+      <p>크라우드펀딩으로 시작한 첫 벨은 전 세계 라이더들의 지지를 받았고, 그 뒤로 Spurcycle은 같은 원칙으로 컴팩트 벨과 툴, EDC 액세서리까지 라인업을 넓혀 왔습니다. 루비워크샵은 이 철학을 한국의 라이더들에게 소개합니다.</p>
+    </div>
+  </div>
+  <div class="container mt"><div class="duo reveal" data-gallery="story"><figure><img src="images/brand/06.svg" alt="Spurcycle 브랜드 스토리" loading="lazy"></figure><figure><img src="images/brand/07.svg" alt="Spurcycle 라이딩" loading="lazy"></figure></div></div>
+</section>
+
+<!-- ===== 06 SHOWROOM ===== -->
+<section class="sec" id="showroom" data-sec>
+  <div class="container"><div class="duo reveal" data-gallery="showroom"><figure><img src="images/showroom/01.svg" alt="루비워크샵 쇼룸" loading="lazy"></figure><figure><img src="images/showroom/02.svg" alt="루비워크샵" loading="lazy"></figure></div></div>
+  <div class="container contact mt">
+    <div class="reveal">
+      <p class="kicker">06 · Showroom</p>
+      <h2>Ring it yourself<br>at Rubi Workshop.</h2>
+      <p class="lead">벨은 들어봐야 압니다. 루비워크샵에서 Spurcycle 벨의 소리를 직접 들어보고, 자전거에 맞는 모델과 컬러를 함께 골라 보세요.</p>
+      <div class="btns" style="margin-top:28px"><a class="btn solid" href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener">루비워크샵 바로가기 →</a><a class="btn ghost" href="https://map.naver.com/p/search/%EB%A3%A8%EB%B9%84%EC%9B%8C%ED%81%AC%EC%83%B5" target="_blank" rel="noopener">지도에서 보기</a></div>
+    </div>
+    <dl class="reveal">
+      <dt>Address</dt><dd>서울특별시 서초구 신반포로 320 루비빌딩</dd>
+      <dt>Hours</dt><dd>월~금 12:00~18:00</dd>
+      <dt>Call</dt><dd><a href="tel:15515320">1551-5320</a></dd>
+      <dt>Email</dt><dd><a href="mailto:help@rubi.kr">help@rubi.kr</a></dd>
+    </dl>
+  </div>
+  <div class="container story mt" id="dealers">
+    <div class="reveal"><p class="kicker">For Dealers</p></div>
+    <div class="copy reveal">
+      <h2>Spurcycle 취급 문의</h2>
+      <p>Spurcycle 매장 입점과 거래 조건은 루비컴퍼니의 B2B 채널 루비서플라이로 문의해 주세요.</p>
+      <div class="tiles" style="margin-top:28px">
+        <a class="tile" href="https://pf.kakao.com/_NFnBj/chat" target="_blank" rel="noopener"><div><b>카카오톡 채널 문의</b><span>Rubi Supply</span></div><svg><use href="#i-arrow"/></svg></a>
+        <a class="tile" href="tel:025168465"><div><b>02-516-8465</b><span>Rubi Supply</span></div><svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
 </main>
 
-<footer class="footer">
-  <div class="footer-logo">SPURCYCLE</div>
-  <p>Official distributor in Korea · Rubi Workshop</p>
-  <p class="small">© <span id="year">2026</span> Rubi Workshop. Spurcycle is a trademark of its respective owner.</p>
+<!-- ===== 푸터 ===== -->
+<footer>
+  <div class="container">
+    <div class="fcols">
+      <div><h4>Products</h4><ul>
+        <li><a href="#bell">Original Bell</a></li>
+        <li><a href="#compact">Compact Bell</a></li>
+        <li><a href="#acc">Accessories</a></li>
+      </ul></div>
+      <div><h4>Spurcycle Korea</h4><ul>
+        <li><a href="#brand">Brand</a></li>
+        <li><a href="#story">Story</a></li>
+        <li><a href="#showroom">Showroom</a></li>
+      </ul></div>
+      <div><h4>Support</h4><ul>
+        <li><a href="https://rubiworkshop.com/spurcycle" target="_blank" rel="noopener">Rubi Workshop</a></li>
+        <li><a href="https://pf.kakao.com/_NFnBj/chat" target="_blank" rel="noopener">Rubi Supply · Dealers</a></li>
+        <li><a href="tel:15515320">1551-5320</a></li>
+        <li><a href="mailto:help@rubi.kr">help@rubi.kr</a></li>
+      </ul></div>
+      <div><h4>Social</h4><ul>
+        <li><a href="https://www.spurcycle.com/" target="_blank" rel="noopener">Spurcycle Global</a></li>
+        <li><a href="https://rubi.kr/" target="_blank" rel="noopener">Rubi Company</a></li>
+      </ul></div>
+    </div>
+    <div class="legal">
+      <div class="row2"><span>Copyright ⓒ 2026 Spurcycle 코리아 | Rubi Company All rights reserved.</span><span>Seoul, KR</span></div>
+      <div>루비컴퍼니 (Rubi Company) / 대표 권오현 / 서울특별시 서초구 신반포로 320 루비빌딩 / 사업자등록번호 685-05-00242 / 통신판매번호 2016-서울서초-2062 / 고객센터 1551-5320 (월~금 12:00~18:00) / 이메일 help@rubi.kr</div>
+    </div>
+  </div>
 </footer>
 
-<script>
-  const t = document.querySelector('.nav-toggle'), l = document.querySelector('.nav-links');
-  t.addEventListener('click', () => { const o = l.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
-  l.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { l.classList.remove('open'); t.setAttribute('aria-expanded', false); }));
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+<!-- ===== 라이트박스 ===== -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="이미지 보기">
+  <img alt="">
+  <button class="x" type="button" aria-label="닫기">Close</button>
+  <button class="pv" type="button" aria-label="이전">←</button>
+  <button class="nx" type="button" aria-label="다음">→</button>
+  <div class="ct"></div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
